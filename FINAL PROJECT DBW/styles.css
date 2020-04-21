@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+body{
+	background-image: url(tem.jpg);
+	background-size: cover;
+	margin-top: -2.5%;
+		}
+
+ .wrapper {
+ 	margin-top: 05%;
+
+ 	
+ }
+
+ .wrapper h1{
+ 	background: #0000ff;
+ 	font-family:  'Roboto', cursive;
+ 	font-size: 50px;
+ 	margin-bottom: 6%;
+ 	text-align: center;
+ 	color: #000000;
+ 	margin-left: 160px;
+ 	margin-right: 160px;
+ 	
+ }
+ .team {
+ 
+ 	display: flex;
+ 	text-align: center;
+ 	width: auto;
+ 	justify-content: center;
+ 	
+
+ }
+ .team_member{
+   
+ 	background: #ffffff;
+ 	margin: 10px;
+ 	
+ 	margin-bottom: 25px;
+ 	width: 250px;
+
+ }
+ .wrapper p{
+ 	font-family: 'Yeon Sung', cursive;
+ 	color: #696969;
+ }
+
+.team_member h3{
+	 margin-top: 50px;
+}
+.team_img img{
+    
+	width: 80px;
+	height: 80px;
+	
+	border-radius: 50%;
+	position: absolute;
+	top: 160px;
+	transform: translateX(-50%);
+	background: #ffffff;
+	padding: 5px;
+}
+.volunteers{
+	display: flex;
+	text-align: center;
+ 	width: auto;
+ 	justify-content: center;
+}
+.vol_img img{
+	background: #808080;
+	padding: 5px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 15px;
+}
+.vol h6{
+	margin-top: 0px;
+	font-size: 15px;
+	color: #ffffff; 
+}
+.vol{
+	margin-top: 0px;
+}
+.glow {
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }

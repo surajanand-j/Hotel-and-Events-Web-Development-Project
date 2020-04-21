@@ -1,0 +1,88 @@
+body{
+	background-image: url(image1.jpg);
+}
+.mis1{
+	background-color: #00ff00;
+	margin-left:  5%;
+	color: white; 
+	height: 50px;
+	;
+}
+.mis2 {
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.split {
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+	margin-top: 3%;
+ 
+ margin-left: 1%
+}
+
+.right {
+  
+  margin-left: 25%;
+  margin-right: 10%;
+  
+ }
+ .qwe {
+ 	text-align: center;
+ 	
+ }
+ .tab {
+  overflow: hidden;
+  border: none;
+  
+  
+}
+.tab button {
+  background-color: inherit;
+  color: #ffffff;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #00ff00;
+}
+.tab button.active{
+	background-color: #00ff00;
+}
+.margin p{
+	margin-left: 10%;
+}
+.wrap{
+	font-size: 12px;
+	margin-left: 25%;
+
+}
+.dob{
+	margin-right: 50%; 
+}
+.pue img{
+	margin-top: 1%;
+	height: 250px;
+	margin-right: 5%;
+}
+.etxt{
+	font-size: 12px;
+	margin-top: -1%;
+	color: #575465;
+
+}
+.mnl{
+	color: #343ec2;
+}

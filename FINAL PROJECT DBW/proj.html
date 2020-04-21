@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Home</title>
+
+ <style type="text/css">
+ @import url('https://fonts.googleapis.com/css?family=Allura&display=swap'); 
+body {
+  background-image: url(bcg.png);
+ background-size: cover;
+ margin-top:-2.5%;
+}
+
+ul {
+ margin-left: 8%;
+ margin-top: -1.5%;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
+
+ul li {
+ float: left;
+ width: 130px;
+ height: 35px;
+ background-color: black;
+ opacity: .8;
+ line-height: 35px;
+ text-align: center;
+ font-size: 18px;
+
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: green;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+.camp_img{
+  margin-top: 2%;
+  margin-bottom: 0%;
+  overflow: hidden;
+  width: 50%;
+
+  text-align: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.glow {
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.lower{
+  background-color: #000000;
+}
+.workon{
+  float: left;
+left:30px;
+
+width:150px;
+color:white;
+position:absolute;
+color: #ffffff;
+margin-left:4.5%;
+background-color: #000;
+
+}
+.first{
+  left:0;
+  top:0;
+  width:200px;
+  background-color: black;
+  position:absolute;
+
+
+}
+.second{
+  left:225px;
+top:0;
+width:200px;
+color:white;
+position:absolute;
+background-color: black;
+}
+.third{
+  left:450px;
+top:0;
+width:200px;
+color:white;
+position:absolute;
+background-color: black;
+}
+.fourth{
+ left:675px;
+top:0;
+width:200px;
+color:white;
+position:absolute;
+background-color: black; 
+}
+.fifth{
+  left:900px;
+top:0;
+width:200px;
+color:white;
+position:absolute;
+background-color: black; 
+
+
+}
+
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+</style>
+</head>
+
+<body>
+  <div class="pqr">
+    <h1  class="glow" 
+    style="font-family:'Allura', cursive;
+               text-align: center;
+               font-size: 50px;
+               color: #ea5e5e; " >THE HOTEL GRAND</h1></div>
+
+<ul>
+ <li><a href="proj.html">HOME</a></li>
+ <li><a href="#">ABOUT</a>
+  <ul>
+   <li><a href="team.htm">OUR TEAM</a></li>
+   <li><a href="camsites.htm">HOTEL SITES</a></li>
+   <li><a href="approach1.htm">MISSION & VISION</a></li>
+   <li><a href="approach1.htm">RESOURCES</a></li>
+  </ul>
+ </li>
+ <li><a href="joinuspage.php">JOIN US</a></li>
+ <li><a href="complaintspage.php">HELPLINE</a></li>
+ <li><a href="gallery.html">GALLERY</a></li>
+ <li><a href="#">FESTIVITIES</a>
+  <ul>
+   <li><a href="activity.htm">ACTIVITIES</a></li>
+   <li><a href="events.php">EVENTS</a></li>
+  </ul>
+ </li>
+ <li><a href="contactus.html">CONTACT</a>
+ </li>
+ <li><a href="news.html">NEWS</a></li>
+ <li><a href="adminpage.php">ADMIN</a></li>
+</ul>
+<br>
+<div class="camp">
+      
+      <div class="camp_img">
+      <img class="abc" src="front7.jpg" style="width: 100%">
+        </div>
+        
+        
+    </div>
+    <div class="camp">
+      <div class="camp_img">
+      <img class="2" src="front6.png" style="width: 100%">
+        </div>
+        
+        
+    </div>
+    <div class="camp">
+      <div class="camp_img">
+      <img class="3" src="front3.jpg" style="width: 100%">
+        </div>
+        
+        
+    </div>
+        <div class="camp">
+      <div class="camp_img">
+      <img class="4" src="front2.jpg" style="width: 100%">
+        </div>
+
+        
+    </div>
+    <div class="camp">
+      <div class="camp_img">
+      <img class="5" src="front1.jpg" style="width: 100%">
+    </div>
+  </div>
+  <div class="camp">
+      <div class="camp_img">
+      <img class="6" src="front.jpg" style="width: 100%">
+     
+         
+    </div>
+    
+    </div>
+    <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("camp");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+<div class="lower">
+<h2 style="color: pink;
+margin-left: 7%;">About</h2>
+<p style="color: #ffffff;margin-left: 10%;margin-right: 10%;"><b>THE HOTEL GRAND</b> is an is an 
+awesome company that focuses on sharing happiness and giving people some beautiful moments with each ther by mesmerising them with outstanding quality of food and entertainment at the same time .
+</p>
+<div class="workon">
+  <div class="first">
+<h5 style="color: #ffffff;margin-left: 10%;">OUR WORK</h5>
+<p style="color: #ffffff;margin-left: 10%;font-size: 14px;">GREAT AMERICAN FESTS<br>
+GREAT INDIAN HOTEL<br>INDO-CHINA FUSIoN FEST<br>this time its blaks concert<br>spreading moments<br>Empowering chefs<br>
+</div>
+ <div class="second">
+<h5 style="color: #ffffff;margin-left: 10%;"><a style="color: white;" href="activity.htm">CAMPAIGNS</a></h5>
+<p style="color: #ffffff;margin-left: 10%;font-size: 14px;">
+  DELHI<br>pune<br>banglore<br>indore<br>
+</div>
+  <div class="third">
+<h5 style="color: #ffffff;margin-left: 10%;">GET INVOLVED</h5>
+<p style="color: #ffffff;margin-left: 10%;font-size: 14px;">Individual support<br>
+Carporate Partnership<br>Volunteers<br>Careers<br>
+</div>
+<div class="fourth">
+<h5 style="color: #ffffff;margin-left: 10%;">FAQ</h5>
+<p style="color: #ffffff;margin-left: 10%;font-size: 14px;">Media Support<br>
+Direct Contact<br>Executives<br></p>
+</div>
+<div class="fifth">
+  <h5 style="color: #ffffff;margin-left: 10%;">Media Center</h5>
+<h5 style="color: #ffffff;margin-left: 10%;">Resource Center</h5>
+<p style="color: #ffffff;margin-left: 10%;font-size: 14px;">Annual Report<br>
+News letter<br>Photo Journey<br>Stories of happiness</p>
+</div>
+</body>
+</html>
+

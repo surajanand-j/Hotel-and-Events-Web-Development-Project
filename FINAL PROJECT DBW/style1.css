@@ -1,0 +1,70 @@
+
+
+body{
+	background-image: url(image1.jpg);
+	background-size: none;
+	margin-top: 2%;
+		}
+.camp_img{
+	margin-bottom: 0%;
+	overflow: hidden;
+	width: 50%;
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+.white h5{
+	margin-top: 0%;
+	color: #ff0000;
+	font-size: 20px;
+}
+.white h6{
+	color: #00ff00;
+	font-size: 20px;
+}
+.abc{
+	height: 50%;
+	width: 100%;
+}
+.camp h2{
+	text-align: center;
+	color: #ffffff;
+
+}
+.glow {
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glow h1{
+	
+ 	font-size: 30px;
+ 	margin-bottom: 1%;
+ 	font-family:  'Allura', cursive;
+ 	color: #000000;
+ 	margin-left: 160px;
+ 	margin-right: 160px;
+ 	margin-top: 0px;
+ 	
+}
+.camps{
+	text-align: center;
+	font-family:  'Allura', cursive;
+}
+
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+ 
